@@ -75,3 +75,9 @@ Projects and hands‑on work including SIEM log analysis, vulnerability scanning
 🔗 **LinkedIn:** [https://www.linkedin.com/in/kurt-berglund-4631851a](https://www.linkedin.com/in/kurt-berglund-4631851a)   
 📄 **Resume:** [https://kurty86x.github.io/Resume/](https://kurty86x.github.io/Resume/)
 
+[Back to Kurt's resume](../index.html)
+
+<footer>
+    <p>© Kurt Berglund. All Rights Reserved.</p>
+</footer>
+
