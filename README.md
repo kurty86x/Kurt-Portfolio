@@ -50,6 +50,13 @@ Projects and hands‑on work including SIEM log analysis, vulnerability scanning
 - Virtualization (VMware, VirtualBox, Proxmox)
 - Basic containerization (Docker): building and running containers, managing images, and deploying simple services in isolated environments
 
+### 🔐 Security
+- SIEM fundamentals: log analysis, alert triage, event correlation
+- Vulnerability scanning (Nessus, OpenVAS)
+- Identity and Access Management (least privilege, MFA, IAM roles)
+- System and network hardening (Windows/Linux baseline security)
+- Cloud security (AWS SGs/NACLs, Azure NSGs, encryption, logging)
+- Incident response fundamentals (detection, containment, recovery)
 
 ### ☁️ Cloud
 - AWS: VPC, Subnets, Route Tables, IAM, Security Groups, NACLs
@@ -64,7 +71,7 @@ Projects and hands‑on work including SIEM log analysis, vulnerability scanning
 
 ---
 
-## Contact
-**LinkedIn:**  
-**Email:**
+📧 **Email:** kurty86x@yahoo.com  
+🔗 **LinkedIn:** https://www.linkedin.com/in/kurt-berglund-4631851a  
+📄 **Resume:** https://kurty86x.github.io/Resume/
 
