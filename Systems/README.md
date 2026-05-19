@@ -32,8 +32,8 @@ Built and hardened RHEL Servers following best practices.
 - Created monitoring scripts for CPU, RAM, and disk  
 
 **Documentation:**  
-- [`linux-hardening.md`](linux-hardening.md)
-- [`ansible-automation.md`](ansible-automation.md)
+- [`linux-hardening`](linux-hardening.md)
+- [`ansible-automation`](ansible-automation.md)
 
 ---
 
