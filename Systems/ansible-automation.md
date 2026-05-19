@@ -238,7 +238,9 @@ awx/
 
 ##
 ##  Screenshots
-![Ansible](Images/ansible2.png)
+![Dashboard_Ansible](Images/ansible2.png)
 #
-![Ansible](Images/ansible1.png)
+![RHEL_Patch_Ansible](Images/ansible1.png)
+#
+![CIS_Ansible](Images/ansible3.png)
 #
