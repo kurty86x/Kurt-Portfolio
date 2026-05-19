@@ -33,6 +33,7 @@ Built and hardened RHEL Servers following best practices.
 
 **Documentation:**  
 - [`linux-hardening.md`](linux-hardening.md)
+- [`ansible-automation.md`](ansible-automation.md)
 
 ---
 
