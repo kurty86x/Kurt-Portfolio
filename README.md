@@ -13,7 +13,7 @@ This portfolio showcases the technical projects that reflect my capabilities, pr
 ### 🔹 Networking
 Projects and hands‑on work including VLANs, routing, firewalls, NAT, and troubleshooting.
 
-[View Network Administration Portfolio Samples](Networking/)
+[View Network Administration Portfolio Samples](Networking/README.md)
 
 ---
 
