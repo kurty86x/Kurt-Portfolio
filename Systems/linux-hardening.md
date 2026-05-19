@@ -62,7 +62,7 @@ df -h
 ```bash
 #!/bin/bash
 
-# This Script is to remediate SSH Secure Configs for Linux.
+##### This Script is to remediate SSH Secure Configs for Linux.
 
 # Path to sshd_config
 SSHD_CONFIG="/etc/ssh/sshd_config"
@@ -91,7 +91,7 @@ update_config() {
 }
 
 # Secure SSH configurations
-update_config "PermitRootLogin" "no"
+update_config "PermitRootLogin" "no"  
 update_config "PasswordAuthentication" "yes"
 update_config "X11Forwarding" "no"
 update_config "AllowTcpForwarding" "no"
@@ -112,3 +112,4 @@ update_config "ChallengeResponseAuthentication" "no"
 
 # Restart SSH service
 systemctl restart sshd && echo "SSH service restarted successfully."
+```
