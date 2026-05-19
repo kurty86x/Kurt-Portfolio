@@ -71,7 +71,7 @@ Projects and hands‑on work including SIEM log analysis, vulnerability scanning
 
 ---
 
-📧 **Email:** kurty86x@yahoo.com  
-🔗 **LinkedIn:** https://www.linkedin.com/in/kurt-berglund-4631851a  
-📄 **Resume:** https://kurty86x.github.io/Resume/
+📧 **Email:** [kurty86x@yahoo.com]  
+🔗 **LinkedIn:** [https://www.linkedin.com/in/kurt-berglund-4631851a]  
+📄 **Resume:** [https://kurty86x.github.io/Resume/]
 
