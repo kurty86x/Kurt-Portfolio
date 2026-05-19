@@ -1,5 +1,3 @@
-# Kurt's IT Portfolio
-
 ## 💁 About Me
 I'm an IT professional with practical experience across systems administration, Linux, networking, cloud infrastructure, and security.  
 I focus on designing and maintaining secure, scalable environments while continuously expanding my skills through hands‑on labs and real-world scenarios.  
