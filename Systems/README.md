@@ -63,10 +63,6 @@ Designed and implemented Linux storage solutions using partitions, filesystems, 
 <img src="Images/ad_diagram.png" width="420">
 
 **Summary:**  
-### 2. Windows Server Administration + Active Directory  
-<img src="Images/ad_diagram.png" width="420">
-
-**Summary:**  
 Deployed a Windows Server 2022 domain controller and configured core identity services.
 
 **Key Work:**  
