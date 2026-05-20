@@ -46,9 +46,8 @@ Designed and implemented Linux storage solutions using partitions, filesystems, 
 **Key Work:**  
 - Partitioned disks using `fdisk` and `parted`  
 - Created and managed LVM (PV → VG → LV)  
-- Formatted and mounted filesystems (ext4, XFS)  
-- Configured persistent mounts in `/etc/fstab`  
-- Performed live filesystem expansion using `lvextend` and `resize2fs`  
+- Formatted and mounted filesystems (ext4, XFS)   
+- Performed live filesystem expansion using `lvextend`, `resize2fs` and  `xfs_growfs` 
 - Implemented disk‑usage monitoring and SMART health checks  
 - Automated cleanup of logs, temp files, and stale data  
 
@@ -82,13 +81,16 @@ Deployed a Windows Server 2022 domain controller and configured core identity se
 <img src="Images/virtualization.png" width="420">
 
 **Summary:**  
-Built a multi‑VM environment using VirtualBox and Hyper‑V for testing and rollback scenarios.
+Used VMware in a production environment to run and manage virtual machines for daily system administration tasks. Performed basic VM provisioning, maintenance, and snapshot management to support server operations and testing.
 
 **Key Work:**  
-- Created isolated test networks  
-- Used snapshots for rollback testing  
-- Compared Type 1 vs Type 2 hypervisors  
-- Benchmarked VM performance 
+- Created and managed VMs in VMware (production environment)  
+- Performed basic VM provisioning (CPU, RAM, disk, ISO mounting)  
+- Used snapshots before updates or configuration changes  
+- Expanded virtual disks and adjusted VM resources when needed  
+- Managed VM power operations (start, stop, restart)  
+- Connected VMs to existing production networks  
+- Assisted with troubleshooting VM performance or connectivity issues  
 
 **Documentation:**  
 - [`virtualization-notes.md`](virtualization-notes.md)
