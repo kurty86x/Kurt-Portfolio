@@ -1,73 +1,112 @@
 ## 💁 About Me
-I'm an IT professional with practical experience across systems administration, Linux, networking, cloud infrastructure, and security.  
-I focus on designing and maintaining secure, scalable environments while continuously expanding my skills through hands‑on labs and real-world scenarios.  
-This portfolio showcases the technical projects that reflect my capabilities, problem‑solving approach, and commitment to learning.
+I’m a Linux & Systems Engineer with 10+ years supporting federal and enterprise environments, working across RHEL, networking, virtualization, and infrastructure operations. My focus is on building reliable, secure, and scalable environments — and expanding into DevSecOps practices such as automation, containerization, IaC, and cloud engineering.
+
+This portfolio highlights hands‑on projects that reflect my real‑world experience, my problem‑solving approach, and my commitment to continuous learning through labs and practical experimentation.
 
 
 ---
 
 ## 📁 Portfolio Sections
 
-### 🔹 Networking
-Projects and hands‑on work including VLANs, routing, firewalls, NAT, and troubleshooting.
+### 🔹 DevOps / Automation
+Hands‑on projects focused on automation, CI/CD, IaC, and containerization.
+- Automated RHEL patching and Security Configs using Ansible
+- Dockerized a simple web application and deployed it locally
+- Kubernetes lab deployment using Minikube/k3s
+- Terraform provisioning of AWS VPC and EC2 sandbox
+- CI/CD pipeline using GitHub Actions or GitLab CI
 
-[View Network Administration Portfolio Samples](Networking/README.md)
+[View DevOps / Automation Portfolio Samples](DevOps/README.md)
 
 ---
 
-### 🔹 Systems Administration
-Projects and hands‑on work covering Windows Server, Active Directory, Linux, virtualization, automation, and basic containerization (Docker).
+### 🔹 Linux & Systems Administration
+Projects demonstrating Linux administration, system hardening, service configuration, and virtualization.
+- RHEL system build and hardening lab
+- SELinux troubleshooting scenarios
+- systemd service creation and management
+- VMwarevirtualization lab
+- Bash scripting utilities for automation
 
 [View Systems Administration Portfolio Samples](Systems/README.md)
 
 ---
 
-### 🔹 Cloud
-Projects and hands‑on work including AWS and Microsoft Azure cloud networking, VPCs/VNets, subnets, route tables, IAM, security controls, and hybrid networking.
+### 🔹 Networking
+Projects demonstrating Network administration tasks
+- VLAN and inter‑VLAN routing lab
+- Cisco switch configuration and migration scenarios
+- Firewall rule creation (Palo Alto / Firepower)
+- DNS/DHCP lab environment
+- Packet capture and analysis using Wireshark
 
-[View Cloud Projects](Cloud/)
+[View Network Administration Portfolio Samples](Networking/README.md)
 
 ---
 
-### 🔹 Security
-Projects and hands‑on work including SIEM log analysis, vulnerability scanning, firewall and ACL configuration, identity and access management, and system hardening across on‑prem and cloud environments.
+### 🔹 Cloud
+Cloud labs focused on AWS and Azure fundamentals and hybrid networking.
+- AWS VPC with subnets, route tables, and EC2
+- Azure VNet with NSGs and identity integration
+- IAM least‑privilege role design
+- Hybrid VPN connectivity concepts
+- Cloud‑ready container deployment
 
-[View Security Projects](Security/)
+
+[View Cloud Projects](Cloud/README.md)
+
+---
+
+### 🔹 Infrastructure Security
+Security‑aware infrastructure work
+- Vulnerability scanning using Nessus
+- Linux and Windows baseline hardening
+- Logging & monitoring (AriaLogs, SolarWinds, SentinelOne, Syslog)
+- Firewall segmentation labs
+
+[View Security Projects](Security/README.md)
 
 
 ---
 
 ## 🌟 Skills
 
-### 🌐 Networking
-- VLANs, Subnetting, Routing
-- Firewalls, NAT, ACLs
-- Troubleshooting (ping, traceroute, Wireshark)
-
-### 🖥️ Systems
+### 🖥️ Linux & Systems
 - Windows Server, Active Directory
 - Linux administration
 - Virtualization (VMware, VirtualBox, Proxmox)
-- Basic containerization (Docker): building and running containers, managing images, and deploying simple services in isolated environments
+- Bash scripting, Powershell Scripting
 
-### 🔐 Security
-- SIEM fundamentals: log analysis, alert triage, event correlation
-- Vulnerability scanning (Nessus, OpenVAS)
-- Identity and Access Management (least privilege, MFA, IAM roles)
+### 🖥️ DevOps / Automation
+- Ansible (playbooks, roles)
+- Docker (images, containers)
+- Kubernetes (manifests, deployments)
+- Terraform (IaC basics)
+- GitHub Actions / GitLab CI
+
+### 🌐 Networking
+- VLANs, routing, subnetting
+- Cisco, Meraki, Juniper
+- Palo Alto, Firepower
+- DNS/DHCP, NAT, ACLs
+- Wireshark, packet analysis
+
+### 🔐 Infrastructure Security
+- DISA STIG hardening
+- Vulnerability scanning (Nessus)
+- AriaLogs, SolarWinds, SentinelOne and Syslog
 - System and network hardening (Windows/Linux baseline security)
-- Cloud security (AWS SGs/NACLs, Azure NSGs, encryption, logging)
-- Incident response fundamentals (detection, containment, recovery)
 
 ### ☁️ Cloud
-- AWS: VPC, Subnets, Route Tables, IAM, Security Groups, NACLs
-- Azure: VNets, Subnets, NSGs, Route Tables, IAM (Entra ID)
-- Hybrid networking concepts (VPN, on‑prem connectivity)
+- AWS: IAM, EC2, VPC, SGs
+- Azure: VMs, VNets, NSGs, Entra ID
+- Hybrid networking
 
 ### 🛠️ Tools
-- Packet Tracer, GNS3, pfSense
-- AWS Console
 - VS Code, Git, GitHub
-- Docker
+- ServiceNow, Remedy
+- Docker Desktop
+- GNS3, Packet Tracer
 
 ---
 
