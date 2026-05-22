@@ -16,7 +16,7 @@ Hands‑on projects focused on automation, CI/CD, IaC, and containerization.
 - Terraform provisioning of AWS VPC and EC2 sandbox
 - CI/CD pipeline using GitHub Actions or GitLab CI
 
-[View DevOps / Automation Portfolio Samples](DevSecOps/README.md)
+[View DevSecOps / Automation Portfolio Samples](DevSecOps/README.md)
 
 ---
 
