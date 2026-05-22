@@ -146,7 +146,7 @@ kubectl rollout status deployment/web-deployment -n dev
 ```
 
 ### Rollback
-```Rollback
+```
 Command:
 kubectl rollout undo deployment/web-deployment -n dev
 ```
