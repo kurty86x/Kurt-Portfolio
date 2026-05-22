@@ -31,11 +31,13 @@ docker-deployment/
 │── docker-compose.yml
 └── docs/
 ```
+---
 
 ## 🐳 Building the Docker Image
 
 ### Dockerfile
-```Dockerfile
+
+```
 FROM python:3.10-slim
 
 WORKDIR /app
