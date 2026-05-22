@@ -40,7 +40,7 @@ You sould see **1 Ready node**
 
 
 ## 📁 Project Structure
-```Folder Structure
+```
 kubernetes-lab/
 │── deployments/
 │     └── web-deployment.yaml
@@ -54,7 +54,7 @@ kubernetes-lab/
 ## 🧱 Creating a Namespace
 
 dev-namespace.yaml
-```dev-namespace.yaml
+```
 apiVersion: v1
 kind: Namespace
 metadata:
@@ -68,7 +68,7 @@ kubectl apply -f namespaces/dev-namespace.yaml
 
 ### 📦 Deployment
 web-deployment.yaml
-```Deployment
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -104,7 +104,7 @@ kubectl get pods -n dev
 
 ## 🌐 Exposing the App (NodePort)
 web-service.yaml
-```web-service.yaml
+```
 apiVersion: v1
 kind: Service
 metadata:

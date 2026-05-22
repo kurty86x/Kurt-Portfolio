@@ -24,7 +24,7 @@ The goal was to understand how pipelines improve consistency, reduce manual work
 ---
 
 ## 📁 Project Structure
-```Folder Structure
+```
 cicd-pipeline/
 │── .github/
 │     └── workflows/
@@ -39,7 +39,7 @@ cicd-pipeline/
 ## ⚙️ GitHub Actions Workflow
 .github/workflows/ci.yml
 
-```ci.yml
+```
 name: CI Pipeline
 
 on:
@@ -89,7 +89,7 @@ env:
 
 ## 🐳 Optional: Push Image to Docker Hub
 
-```yaml
+```
 - name: Log in to Docker Hub
   uses: docker/login-action@v2
   with:

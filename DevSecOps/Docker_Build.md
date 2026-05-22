@@ -23,7 +23,7 @@ The goal was to learn how images, containers, Dockerfiles, and multi‑container
 ---
 
 ### 📁 Project Structure
-```Folder Structure
+```
 docker-deployment/
 │── app/
 │     └── app.py (or index.html)

@@ -22,7 +22,7 @@ The goal was to learn how Infrastructure‑as‑Code (IaC) works, how Terraform 
 ---
 
 ## 📁 Project Structure
-```Folder Structure
+```
 terraform-aws-lab/
 │── main.tf
 │── variables.tf
@@ -35,7 +35,7 @@ terraform-aws-lab/
 ## 🔧 Provider Configuration
 provider.tf
 
-```provider.tf
+```
 provider "aws" {
   region = "us-east-1"
 }
@@ -43,7 +43,7 @@ provider "aws" {
 
 ### 🌐 VPC & Networking
 main.tf (VPC + Subnet + IGW)
-```main.tf
+```
 resource "aws_vpc" "lab_vpc" {
   cidr_block = "10.0.0.0/16"
 }
@@ -61,7 +61,7 @@ resource "aws_internet_gateway" "igw" {
 
 ## 💻 EC2 Instance Deployment
 main.tf (EC2)
-```main.tf
+```
 resource "aws_instance" "lab_server" {
   ami           = "ami-0c02fb55956c7d316" # Amazon Linux 2
   instance_type = "t2.micro"
@@ -75,7 +75,7 @@ resource "aws_instance" "lab_server" {
 
 ## 🧩 Variables & Outputs
 variables.tf
-```variables.tf
+```
 variable "instance_type" {
   default = "t2.micro"
 }
@@ -95,19 +95,19 @@ terraform init
 ```
 
 ### Preview changes
-```Check rollout
+```
 Command:
 terraform plan
 ```
 
 ### Apply changes
-```Apply changes
+```
 Command:
 terraform apply
 ```
 
 ### Destroy infrastructure
-```Destroy infrastructure
+```
 Command:
 terraform destroy
 ```
