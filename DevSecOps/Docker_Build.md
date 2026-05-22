@@ -53,30 +53,30 @@ CMD ["python", "app.py"]
 ```
 
 ### Build the image
-```Build the image
+```
 Command:
 docker build -t myapp:1.0
 ```
 
 ### Verify the image
-```Verify
+```
 docker images
 ```
 
 ## ▶️ Running the Container
-```Running the container
+```
 Command:
 docker run -d -p 5000:5000 --name myapp-container myapp:1.0
 ```
 
 ### Check logs
-```Check logs
+```
 Command:
 docker logs myapp-container
 ```
 
 ### Stop the container
-```Stopping containers
+```
 Command:
 docker stop myapp-container
 ```
