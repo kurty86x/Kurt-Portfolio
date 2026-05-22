@@ -1,34 +1,33 @@
 # 🖥️ Linux and Systems Administration Portfolio
 
-This section highlights my hands‑on experience with Linux, Windows Server, virtualization, automation, and core system administration practices. Each project includes documentation, screenshots, and configuration steps.
+This section highlights my hands‑on experience administering Linux and Windows Server environments, managing virtualization platforms, automating routine tasks, and maintaining secure, stable systems. These projects reflect real‑world responsibilities I’ve handled across system configuration, storage management, identity services, and troubleshooting.
 
 ---
 
 ## 🔧 Core Systems Skills
 
-- Linux administration (users, permissions, services, SSH)
+- Linux administration (users, permissions, services, SSH, systemd)
 - Windows Server (AD DS, DNS, DHCP, Group Policy)
-- Virtualization (Hyper‑V, VirtualBox)
-- Bash & PowerShell scripting
-- System hardening & patching
+- Virtualization (VMware, Hyper‑V, VirtualBox)
+- Bash & PowerShell scripting for automation
+- System hardening, patching, and baseline configuration
 - Monitoring & troubleshooting (logs, performance tools)
-- Basic networking required for system functionality (DNS, ports, firewalls)
+- Networking fundamentals for system operations (DNS, ports, firewalls)
 
 ---
 
 ## 🗂️ Projects
 
 ### 1. Linux Server Administration  
-<img src="Images/linux_server.png" width="420">
+<img src="Images/Logo/rhel.jpg" width="50">
 
 **Summary:**  
-Built and hardened RHEL Servers following best practices. Performed core Linux administration tasks across security, storage, and monitoring.
+Built, configured, and hardened RHEL servers following industry best practices. Performed day‑to‑day Linux administration tasks across authentication, services, storage, and system monitoring.
 
 **Key Work:**  
-- Configured SSH key authentication  
-- Disabled password login & root login  
-- Filesystems,LVM and disk monitoring  
-- Automated updates with `unattended-upgrades`  
+- Applied system hardening (SSH configs, permissions, service lockdown)
+- Managed filesystems, LVM, and disk utilization monitoring 
+- Configured automated patching and update workflows
 - Created monitoring scripts for CPU, RAM, and disk  
 
 **Documentation:**  
@@ -38,18 +37,17 @@ Built and hardened RHEL Servers following best practices. Performed core Linux a
 ---
 
 ### 2. Linux Storage, Filesystems & LVM Administration  
-<img src="Images/storage.png" width="420">
+<img src="Images/Logo/storage.png" width="50">
 
 **Summary:**  
-Designed and implemented Linux storage solutions using partitions, filesystems, and Logical Volume Management (LVM). Automated monitoring and performed live volume resizing.
+Designed and managed Linux storage using partitions, filesystems, and LVM. Performed live volume resizing, implemented monitoring, and automated cleanup tasks to maintain system stability.
 
 **Key Work:**  
-- Partitioned disks using `fdisk` and `parted`  
+- Partitioned disks using `fdisk` and `parted`
 - Created and managed LVM (PV → VG → LV)  
 - Formatted and mounted filesystems (ext4, XFS)   
-- Performed live filesystem expansion using `lvextend`, `resize2fs` and  `xfs_growfs` 
-- Implemented disk‑usage monitoring and SMART health checks  
-- Automated cleanup of logs, temp files, and stale data  
+- Performed online filesystem expansion using `lvextend`, `resize2fs`, and `xfs_growfs` 
+- Automated log cleanup and temporary file maintenance
 
 **Documentation:**  
 - [`lvm-provisioning`](lvm-provisioning.md)  
@@ -59,17 +57,17 @@ Designed and implemented Linux storage solutions using partitions, filesystems, 
 ---
 
 ### 3. Windows Server Administration + Active Directory  
-<img src="Images/ad_diagram.png" width="420">
+<img src="Images/Logo/ad.jpg" width="50">
 
 **Summary:**  
-Deployed a Windows Server 2022 domain controller and configured core identity services.
+Deployed and administered Windows Server 2022 domain services, including Active Directory, DNS, DHCP, and Group Policy. Built a functional identity and access management environment for lab and testing scenarios.
 
 **Key Work:**  
 - Installed and configured AD DS  
 - Set up DNS & DHCP  
 - Created OU structure and Group Policies  
-- Automated user creation with PowerShell  
-- Implemented login scripts and drive mappings  
+- Automated user provisioning with PowerShell
+- Configured login scripts, mapped drives, and workstation policies
 
 
 **Documentation:**  
@@ -78,19 +76,19 @@ Deployed a Windows Server 2022 domain controller and configured core identity se
 ---
 
 ### 4. Virtualization & Snapshots Lab  
-<img src="Images/virtualization.png" width="420">
+<img src="Images/Logo/vmwarelogo.png" width="50">
 
 **Summary:**  
-Used VMware in a production environment to run and manage virtual machines for daily system administration tasks. Performed basic VM provisioning, maintenance, and snapshot management to support server operations and testing.
+Used VMware to practice virtualization fundamentals and support system administration tasks. Focused on provisioning VMs, managing snapshots, and understanding how virtualized environments support server operations.
 
 **Key Work:**  
-- Created and managed VMs in VMware (production environment)  
-- Performed basic VM provisioning (CPU, RAM, disk, ISO mounting)  
+- Created and managed basic VMs in VMware
+- Performed initial provisioning (CPU, RAM, disk, ISO mounting)
 - Used snapshots before updates or configuration changes  
-- Expanded virtual disks and adjusted VM resources when needed  
-- Managed VM power operations (start, stop, restart)  
-- Connected VMs to existing production networks  
-- Assisted with troubleshooting VM performance or connectivity issues  
+- Practiced expanding virtual disks and adjusting VM resources
+- Managed VM power operations (start, stop, restart)
+- Connected VMs to lab networks
+- Troubleshot simple VM performance or connectivity issues
 
 **Documentation:**  
 - [`virtualization-notes.md`](virtualization-notes.md)
