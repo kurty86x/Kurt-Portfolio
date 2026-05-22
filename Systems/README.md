@@ -1,4 +1,4 @@
-# 🖥️ Systems Administration Portfolio
+# 🖥️ Linux and Systems Administration Portfolio
 
 This section highlights my hands‑on experience with Linux, Windows Server, virtualization, automation, and core system administration practices. Each project includes documentation, screenshots, and configuration steps.
 

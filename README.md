@@ -1,5 +1,3 @@
-### FYI: This Portfolio is on the works
-
 ## 💁 About Me
 I’m a Linux & Systems Engineer with 10+ years supporting federal and enterprise environments, working across RHEL, networking, virtualization, and infrastructure operations. My focus is on building reliable, secure, and scalable environments — and expanding into DevSecOps practices such as automation, containerization, IaC, and cloud engineering.
 
