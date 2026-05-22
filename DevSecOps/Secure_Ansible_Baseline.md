@@ -21,7 +21,7 @@ This project demonstrates how I used Ansible to automate secure configuration ta
 ---
 
 ### 📁 Project Structure
-```Folder Structure
+```
 ansible-secure-baseline/ 
 │── inventory 
 │── playbooks/ 
