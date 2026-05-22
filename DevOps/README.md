@@ -1,3 +1,5 @@
+# FYI: Coming soon! or On the works
+
 # 🚀 DevSecOps / Automation Portfolio
 
 This section highlights my hands‑on learning and practical lab work in automation, secure configuration management, containerization, CI/CD, and infrastructure as code. These projects reflect my growing experience with DevSecOps tools and workflows.

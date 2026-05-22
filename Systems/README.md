@@ -1,3 +1,5 @@
+# FYI: Coming soon! or On the works
+
 # 🖥️ Linux and Systems Administration Portfolio
 
 This section highlights my hands‑on experience administering Linux and Windows Server environments, managing virtualization platforms, automating routine tasks, and maintaining secure, stable systems. These projects reflect real‑world responsibilities I’ve handled across system configuration, storage management, identity services, and troubleshooting.
