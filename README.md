@@ -8,7 +8,7 @@ This portfolio highlights hands‑on projects that reflect my real‑world exper
 
 ## 📁 Portfolio Sections
 
-### 🔹 DevOps / Automation
+### 🔹 DevSecOps / Automation
 Hands‑on projects focused on automation, CI/CD, IaC, and containerization.
 - Automated RHEL patching and Security Configs using Ansible
 - Dockerized a simple web application and deployed it locally
