@@ -95,7 +95,7 @@ Used Terraform to provision basic AWS resources in a sandbox environment to unde
 ---
 
 ### 5. CI/CD Pipeline with GitHub Actions
-<img src="Images/github_actions.png" width="50">
+<img src="Images/github.png" width="50">
 
 **Summary:**  
 Built a beginner‑level CI/CD pipeline to automate building and testing a containerized application.
